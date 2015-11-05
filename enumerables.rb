@@ -33,7 +33,7 @@ def add_bang(array)
 	array.map { |a| a + "!"}
 end
 
-p add_bang(["hi", "mom"]) == ["hi!", "mom!"]
+p add_bang(["hello", "world"]) == ["hello!", "word!"]
 
 # Dado un array de números calcula la suma de todos sus elementos. 
 # Utiliza: Enumerable#reduce
