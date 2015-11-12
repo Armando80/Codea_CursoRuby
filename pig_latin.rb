@@ -6,6 +6,6 @@
 	  else
 	 	con = /[a-z&&[^aeiou]]/
 	 	match1 = word.match con
-	 	word.sub! /[a-z&&[^aeiou]]/, '\2\1\ '
+	 	word.sub! /[a-z&&[^aeiou]]/, '\1'
 	 	puts "#{word}#{match1}ay"
 	  end
